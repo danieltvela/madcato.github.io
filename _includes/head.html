@@ -4,7 +4,11 @@
 {%- assign og_title = page.title | default: site.title -%}
 {%- assign og_description = page.subtitle | default: page.description | default: site.description -%}
 {%- assign og_image = page.background | default: "/assets/favicon/android-chrome-512x512.png" -%}
-{%- assign image_url = site.url | append: og_image -%}
+{%- if og_image contains 'http' -%}
+  {%- assign image_url = og_image -%}
+{%- else -%}
+  {%- assign image_url = site.url | append: og_image -%}
+{%- endif -%}
 
 <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
