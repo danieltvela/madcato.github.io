@@ -27,7 +27,7 @@ Esta animación del proyecto Suas muestra cómo funciona la arquitectura de fluj
 ## Ejemplos de arquitecturas de flujo aplicadas a la programación móvil
 Estos son solo unas pocas librerías que utilizan arquitectura de flujo.
 
-- [Suas](https://github.com/madcato/Suas-iOS) es una implementación de la arquitectura Fluxflujo de datos unidireccional para iOS. Tiene una buena animación explicativo de que son este tipo de arquitecturas. Este proyecto parece descontinuado, en origen pertenecía a ZenDesk. Es una pena porque disponía de un sistema de logging excelente.
+- [Suas](https://github.com/danieltvela/Suas-iOS) es una implementación de la arquitectura Fluxflujo de datos unidireccional para iOS. Tiene una buena animación explicativo de que son este tipo de arquitecturas. Este proyecto parece descontinuado, en origen pertenecía a ZenDesk. Es una pena porque disponía de un sistema de logging excelente.
 
 - [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture). Esta librería permite construir aplicaciones de manera consistente y entendible, mediante composición, testeos y facilidad de uso. Puede ser usada con SwiftUI o UIKit y en cualquier plataforma que soporte Swift.
 

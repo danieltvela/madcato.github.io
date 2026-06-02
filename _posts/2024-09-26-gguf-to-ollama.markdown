@@ -115,14 +115,14 @@ First create an ollama account by signing up at [ollama.com](https://ollama.com/
 Add your ollama public key in [ollama account settings](https://ollama.com/settings/keys). Folllow the instructions on this page.
 
     ```sh
-    ollama cp mymodel madcato/nvidia-nemotron-51b
-    ollama push madcato/nvidia-nemotron-51b
+    ollama cp mymodel danieltvela/nvidia-nemotron-51b
+    ollama push danieltvela/nvidia-nemotron-51b
     ```
 
 ### 6. Test it
 
     ```sh
-    ollama run madcato/nvidia-nemotron-51b
+    ollama run danieltvela/nvidia-nemotron-51b
     ```
 ```
 

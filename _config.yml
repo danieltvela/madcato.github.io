@@ -25,7 +25,7 @@ description: "...for all the programming issues I found."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.veladan.org"
 twitter_username:  danieltvela
-github_username:  madcato
+github_username:  danieltvela
 linkedin_username: veladan
 stackoverflow_username: 4815438/veladan
 

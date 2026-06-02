@@ -8,7 +8,7 @@ locale:       en
 lang-ref:   rails-sin-basededatos
 ---
 
-<p><a href="http://blog.veladan.org/post/45344135930/usando-ruby-on-rails-sin-base-de-datos" class="tumblr_blog">madcato</a>:</p>
+<p><a href="http://blog.veladan.org/post/45344135930/usando-ruby-on-rails-sin-base-de-datos" class="tumblr_blog">danieltvela</a>:</p>
 
 <blockquote><p>Ruby On Rails can be used without database. To do that, <strong>active_record</strong> gem must not be loaded. This gem is loaded automatically by Rails, to avoid that set this line in the file <strong><em>enviroment.rb</em></strong>:</p>
 
