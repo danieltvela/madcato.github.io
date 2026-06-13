@@ -12,15 +12,14 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 
 ### 1. Qwen/Qwen3.6-35B-A3B-FP8
 | BenchLocal.app Results | Performance & Voicebot Metrics |
-| :--- | :--- |
-| **Score:** 86.6 | **PP:** 958 t/s |
-| **ToolCall:** 100 | **TTFT (warm):** 64ms |
-| **InstrucFollow:** 90 | **TG:** 194.1 t/s |
-| **DataExtract:** 86 | **Voicebot:** 80% (279ms) |
-| **BugFind:** 84 |   |
+| :--------------------- | :----------------------------- |
+| **Score:** 86.6        | **PP:** 958 t/s                |
+| **ToolCall:** 100      | **TTFT (warm):** 64ms          |
+| **InstrucFollow:** 90  | **TG:** 194.1 t/s              |
+| **DataExtract:** 86    | **Voicebot:** 80% (279ms)      |
+| **BugFind:** 84        |                                |
 | **HermesAgent:** 73 | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
-|          |          |
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png) |
@@ -30,15 +29,14 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 
 ### 2. nvidia/Qwen3.6-35B-A3B-NVFP4
 | BenchLocal.app Results | Performance & Voicebot Metrics |
-| :--- | :--- |
-| **Score:** 84.4 | **PP:** 1354 t/s |
-| **ToolCall:** 97 | **TTFT (warm):** 67ms |
-| **InstrucFollow:** 98 | **TG:** 230.6 t/s |
-| **DataExtract:** 85 | **Voicebot:** 82% (211ms) |
-| **BugFind:** 84 |  |
+| :--------------------- | :----------------------------- |
+| **Score:** 84.4        | **PP:** 1354 t/s               |
+| **ToolCall:** 97       | **TTFT (warm):** 67ms          |
+| **InstrucFollow:** 98  | **TG:** 230.6 t/s              |
+| **DataExtract:** 85    | **Voicebot:** 82% (211ms)      |
+| **BugFind:** 84        |                                |
 | **HermesAgent:** 58 | **Metrics:** 5/6, 7/7, 6/9, 2/4, 4/4, 4/4, 2/3, 4/4 |
 
-|          |          |
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-bugfind-15-qwen3-6-35b-a3b-nvfp4.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-dataextract-15-qwen3-6-35b-a3b-nvfp4.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-hermesagent-20-qwen3-6-35b-a3b-nvfp4.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-instructfollow-15-qwen3-6-35b-a3b-nvfp4.png) |
@@ -48,15 +46,14 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 
 ### 3. Qwen/Qwen3.6-27B-FP8
 | BenchLocal.app Results | Performance & Voicebot Metrics |
-| :--- | :--- |
-| **Score:** 86.2 | **PP:** 3847 t/s |
-| **ToolCall:** 97 | **TTFT (warm):** 222ms |
-| **InstrucFollow:** 97 | **TG:** 82.0 t/s |
-| **DataExtract:** 85 | **Voicebot:** 85% (729ms) |
-| **BugFind:** 90 |  |
+| :--------------------- | :----------------------------- |
+| **Score:** 86.2        | **PP:** 3847 t/s               |
+| **ToolCall:** 97       | **TTFT (warm):** 222ms         |
+| **InstrucFollow:** 97  | **TG:** 82.0 t/s               |
+| **DataExtract:** 85    | **Voicebot:** 85% (729ms)      |
+| **BugFind:** 90        |                                |
 | **HermesAgent:** 62 | **Metrics:** 6/6, 7/7, 8/9, 3/4, 4/4, 2/4, 2/3, 3/4 |
 
-|          |          |
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-bugfind-15-qwen-qwen3-6-27b-fp8.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-dataextract-15-qwen-qwen3-6-27b-fp8.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-hermesagent-20-qwen-qwen3-6-27b-fp8.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-instructfollow-15-qwen-qwen3-6-27b-fp8.png) |
@@ -67,27 +64,17 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 ### 4. sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--------------------- | :----------------------------- |
-| **Score:** 83.4  | **PP:** 5465 t/s |
-|  **ToolCall:** 90 | **TTFT (warm):** 153ms |
-| **InstrucFollow:** 97 | **TG:** 105 t/s |
-| **DataExtract:** 82 | **Voicebot:** 78% (679ms) |
-| **BugFind:** 95 |   |
+| **Score:** 83.4        | **PP:** 5465 t/s               |
+| **ToolCall:** 90       | **TTFT (warm):** 153ms         |
+| **InstrucFollow:** 97  | **TG:** 105 t/s                |
+| **DataExtract:** 82    | **Voicebot:** 78% (679ms)      |
+| **BugFind:** 95        |                                |
 | **HermesAgent:** 53 | **Metrics:** 5/6, 7/7, 7/9, 3/4, 3/4, 2/4, 1/3, 4/4 |
 
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
 | ![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |   |
-
-| **BenchLocal.app Results**          | **Performance & Voicebot Metrics**          |
-| :---------------------------------- | :------------------------------------------ |
-| **Score:** 86.6                     | **PP:** 958 t/s                             |
-| **ToolCall:** 100                   | **TTFT (warm):** 64 ms                      |
-| **InstrucFollow:** 90               | **TG:** 194.1 t/s                           |
-| **DataExtract:** 86                 | **Voicebot:** 80% (279 ms)                  |
-| **BugFind:** 84                     |                                             |
-| **HermesAgent:** 73                 | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
-
 
 ## vLLM Deployment Recipe
 
