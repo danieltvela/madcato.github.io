@@ -19,11 +19,13 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | | **Voicebot:** 80% (279ms) |
 | | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
-![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-toolcall-15-qwen3-6-35b-a3b-fp8.png)
+|          |          |
+| :------: | :------: |
+| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png) |
+ ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png) |
+![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-toolcall-15-qwen3-6-35b-a3b-fp8.png) |
 
 ---
 
@@ -36,11 +38,13 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | | **Voicebot:** 82% (211ms) |
 | | **Metrics:** 5/6, 7/7, 6/9, 2/4, 4/4, 4/4, 2/3, 4/4 |
 
-![BugFind]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-bugfind-15-qwen3-6-35b-a3b-nvfp4.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-dataextract-15-qwen3-6-35b-a3b-nvfp4.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-hermesagent-20-qwen3-6-35b-a3b-nvfp4.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-instructfollow-15-qwen3-6-35b-a3b-nvfp4.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-toolcall-15-qwen3-6-35b-a3b-nvfp4.png)
+|          |          |
+| :------: | :------: |
+| ![BugFind]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-bugfind-15-qwen3-6-35b-a3b-nvfp4.png) |
+![DataExtract]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-dataextract-15-qwen3-6-35b-a3b-nvfp4.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-hermesagent-20-qwen3-6-35b-a3b-nvfp4.png) |
+![InstrucFollow]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-instructfollow-15-qwen3-6-35b-a3b-nvfp4.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-toolcall-15-qwen3-6-35b-a3b-nvfp4.png) |
 
 ---
 
@@ -53,11 +57,13 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | | **Voicebot:** 85% (729ms) |
 | | **Metrics:** 6/6, 7/7, 8/9, 3/4, 4/4, 2/4, 2/3, 3/4 |
 
-![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-bugfind-15-qwen3-6-27b-fp8.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-dataextract-15-qwen3-6-27b-fp8.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-hermesagent-20-qwen3-6-27b-fp8.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-instructfollow-15-qwen3-6-27b-fp8.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-toolcall-15-qwen3-6-27b-fp8.png)
+|          |          |
+| :------: | :------: |
+| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-bugfind-15-qwen-qwen3-6-27b-fp8.png) |
+![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-dataextract-15-qwen-qwen3-6-27b-fp8.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-hermesagent-20-qwen-qwen3-6-27b-fp8.png) |
+![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-instructfollow-15-qwen-qwen3-6-27b-fp8.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-toolcall-15-qwen-qwen3-6-27b-fp8.png) |
 
 ---
 
@@ -70,11 +76,13 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | | **Voicebot:** 78% (679ms) |
 | | **Metrics:** 5/6, 7/7, 7/9, 3/4, 3/4, 2/4, 1/3, 4/4 |
 
-![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png)
+|          |          |
+| :------: | :------: |
+| ![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
+![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
+![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
 
 ## vLLM Deployment Recipe
 
