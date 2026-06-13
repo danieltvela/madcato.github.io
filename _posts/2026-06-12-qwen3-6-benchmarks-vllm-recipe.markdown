@@ -78,11 +78,9 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 
 |          |          |
 | :------: | :------: |
-| ![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
-![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
-| ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
-![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
-| ![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
+| ![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |   |
 
 ## vLLM Deployment Recipe
 
