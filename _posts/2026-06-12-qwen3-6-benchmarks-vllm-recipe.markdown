@@ -66,7 +66,7 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 
 ### 4. sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP
 | BenchLocal.app Results | Performance & Voicebot Metrics |
-| :--- | :--- |
+| :--------------------- | :----------------------------- |
 | **Score:** 83.4  | **PP:** 5465 t/s |
 |  **ToolCall:** 90 | **TTFT (warm):** 153ms |
 | **InstrucFollow:** 97 | **TG:** 105 t/s |
@@ -74,7 +74,6 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | **BugFind:** 95 |   |
 | **HermesAgent:** 53 | **Metrics:** 5/6, 7/7, 7/9, 3/4, 3/4, 2/4, 1/3, 4/4 |
 
-|          |          |
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-bugfind-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-dataextract-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
@@ -89,9 +88,6 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | **BugFind:** 84                     |                                             |
 | **HermesAgent:** 73                 | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
-| **BenchLocal.app Results** | **Performance & Voicebot Metrics** |
-| :------------------------ | :--------------------------------- |
-| **Score:** 86.6<br>**ToolCall:** 100<br>**InstrucFollow:** 90<br>**DataExtract:** 86<br>**BugFind:** 84<br>**HermesAgent:** 73 | **PP:** 958 t/s<br>**TTFT (warm):** 64 ms<br>**TG:** 194.1 t/s<br>**Voicebot:** 80% (279 ms)<br><br>**Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
 ## vLLM Deployment Recipe
 
