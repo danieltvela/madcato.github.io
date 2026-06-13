@@ -71,10 +71,10 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--- | :--- |
 | **Score:** 83.4 <br> **ToolCall:** 90, **InstrucFollow:** 97, **DataExtract:** 82, **BugFind:** 95, **HermesAgent:** 53 | **PP:** 5465 t/s |
-| | **TTFT (warm):** 153ms |
-| | **TG:** 105 t/s |
-| | **Voicebot:** 78% (679ms) |
-| | **Metrics:** 5/6, 7/7, 7/9, 3/4, 3/4, 2/4, 1/3, 4/4 |
+| - | **TTFT (warm):** 153ms |
+| - | **TG:** 105 t/s |
+| - | **Voicebot:** 78% (679ms) |
+| - | **Metrics:** 5/6, 7/7, 7/9, 3/4, 3/4, 2/4, 1/3, 4/4 |
 
 |          |          |
 | :------: | :------: |
