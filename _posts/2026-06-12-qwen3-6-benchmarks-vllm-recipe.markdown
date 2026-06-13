@@ -14,18 +14,16 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--- | :--- |
 | **Score:** 86.6 <br> **ToolCall:** 100, **InstrucFollow:** 90, **DataExtract:** 86, **BugFind:** 84, **HermesAgent:** 73 | **PP:** 958 t/s |
-| | **TTFT (warm):** 64ms |
-| | **TG:** 194.1 t/s |
-| | **Voicebot:** 80% (279ms) |
-| | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
+| - | **TTFT (warm):** 64ms |
+| - | **TG:** 194.1 t/s |
+| - | **Voicebot:** 80% (279ms) |
+| - | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
 |          |          |
 | :------: | :------: |
-| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png) |
- ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png) |
-| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png) |
-![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png) |
-| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-toolcall-15-qwen3-6-35b-a3b-fp8.png) |
+| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-toolcall-15-qwen3-6-35b-a3b-fp8.png) |   |
 
 ---
 
@@ -33,18 +31,16 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--- | :--- |
 | **Score:** 84.4 <br> **ToolCall:** 97, **InstrucFollow:** 98, **DataExtract:** 85, **BugFind:** 84, **HermesAgent:** 58 | **PP:** 1354 t/s |
-| | **TTFT (warm):** 67ms |
-| | **TG:** 230.6 t/s |
-| | **Voicebot:** 82% (211ms) |
-| | **Metrics:** 5/6, 7/7, 6/9, 2/4, 4/4, 4/4, 2/3, 4/4 |
+| - | **TTFT (warm):** 67ms |
+| - | **TG:** 230.6 t/s |
+| - | **Voicebot:** 82% (211ms) |
+| - | **Metrics:** 5/6, 7/7, 6/9, 2/4, 4/4, 4/4, 2/3, 4/4 |
 
 |          |          |
 | :------: | :------: |
-| ![BugFind]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-bugfind-15-qwen3-6-35b-a3b-nvfp4.png) |
-![DataExtract]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-dataextract-15-qwen3-6-35b-a3b-nvfp4.png) |
-| ![HermesAgent]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-hermesagent-20-qwen3-6-35b-a3b-nvfp4.png) |
-![InstrucFollow]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-instructfollow-15-qwen3-6-35b-a3b-nvfp4.png) |
-| ![ToolCall]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-toolcall-15-qwen3-6-35b-a3b-nvfp4.png) |
+| ![BugFind]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-bugfind-15-qwen3-6-35b-a3b-nvfp4.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-dataextract-15-qwen3-6-35b-a3b-nvfp4.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-hermesagent-20-qwen3-6-35b-a3b-nvfp4.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-instructfollow-15-qwen3-6-35b-a3b-nvfp4.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/nvidia-Qwen3.6-35B-A3B-NVFP4/benchlocal-toolcall-15-qwen3-6-35b-a3b-nvfp4.png) |   |
 
 ---
 
@@ -52,18 +48,16 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--- | :--- |
 | **Score:** 86.2 <br> **ToolCall:** 97, **InstrucFollow:** 97, **DataExtract:** 85, **BugFind:** 90, **HermesAgent:** 62 | **PP:** 3847 t/s |
-| | **TTFT (warm):** 222ms |
-| | **TG:** 82.0 t/s |
-| | **Voicebot:** 85% (729ms) |
-| | **Metrics:** 6/6, 7/7, 8/9, 3/4, 4/4, 2/4, 2/3, 3/4 |
+| - | **TTFT (warm):** 222ms |
+| - | **TG:** 82.0 t/s |
+| - | **Voicebot:** 85% (729ms) |
+| - | **Metrics:** 6/6, 7/7, 8/9, 3/4, 4/4, 2/4, 2/3, 3/4 |
 
 |          |          |
 | :------: | :------: |
-| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-bugfind-15-qwen-qwen3-6-27b-fp8.png) |
-![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-dataextract-15-qwen-qwen3-6-27b-fp8.png) |
-| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-hermesagent-20-qwen-qwen3-6-27b-fp8.png) |
-![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-instructfollow-15-qwen-qwen3-6-27b-fp8.png) |
-| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-toolcall-15-qwen-qwen3-6-27b-fp8.png) |
+| ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-bugfind-15-qwen-qwen3-6-27b-fp8.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-dataextract-15-qwen-qwen3-6-27b-fp8.png) |
+| ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-hermesagent-20-qwen-qwen3-6-27b-fp8.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-instructfollow-15-qwen-qwen3-6-27b-fp8.png) |
+| ![ToolCall]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-27B-FP8/benchlocal-toolcall-15-qwen-qwen3-6-27b-fp8.png) |   |
 
 ---
 
