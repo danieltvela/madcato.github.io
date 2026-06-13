@@ -80,6 +80,19 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-hermesagent-20-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-instructfollow-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-.png) |
 | ![ToolCall]({{ site.url }}/assets/benchmarks/sakamakismile-Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP/benchlocal-toolcall-15-sakamakismile-huihui-qwen3-6-27b-abliterated-nvfp4-mtp.png) |   |
 
+| **BenchLocal.app Results**          | **Performance & Voicebot Metrics**          |
+| :---------------------------------- | :------------------------------------------ |
+| **Score:** 86.6                     | **PP:** 958 t/s                             |
+| **ToolCall:** 100                   | **TTFT (warm):** 64 ms                      |
+| **InstrucFollow:** 90               | **TG:** 194.1 t/s                           |
+| **DataExtract:** 86                 | **Voicebot:** 80% (279 ms)                  |
+| **BugFind:** 84                     |                                             |
+| **HermesAgent:** 73                 | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
+
+| **BenchLocal.app Results** | **Performance & Voicebot Metrics** |
+| :------------------------ | :--------------------------------- |
+| **Score:** 86.6<br>**ToolCall:** 100<br>**InstrucFollow:** 90<br>**DataExtract:** 86<br>**BugFind:** 84<br>**HermesAgent:** 73 | **PP:** 958 t/s<br>**TTFT (warm):** 64 ms<br>**TG:** 194.1 t/s<br>**Voicebot:** 80% (279 ms)<br><br>**Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
+
 ## vLLM Deployment Recipe
 
 To launch the `Qwen/Qwen3.6-35B-A3B-FP8` variant on Blackwell hardware, use the following Docker Compose configuration. Note the `flashinfer` attention backend required for FP8 KV cache support.
