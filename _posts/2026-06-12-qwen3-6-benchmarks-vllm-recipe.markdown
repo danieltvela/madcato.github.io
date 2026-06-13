@@ -11,6 +11,7 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 ## Benchmark Results
 
 ### 1. Qwen/Qwen3.6-35B-A3B-FP8
+
 | **BenchLocal.app Results** | **Performance & Voicebot Metrics** |
 | :------------------------- | :--------------------------------- |
 | **Score:** 86.6            | **PP:** 958 t/s                    |
@@ -20,6 +21,15 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 | **BugFind:** 84            |                                    |
 | **HermesAgent:** 73        | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
 
+| **BenchLocal.app Results**          | **Performance & Voicebot Metrics**          |
+| :---------------------------------- | :------------------------------------------ |
+| **Score:** 86.6                     | **PP:** 958 t/s                             |
+| **ToolCall:** 100                   | **TTFT (warm):** 64 ms                      |
+| **InstrucFollow:** 90               | **TG:** 194.1 t/s                           |
+| **DataExtract:** 86                 | **Voicebot:** 80% (279 ms)                  |
+| **BugFind:** 84                     |                                             |
+| **HermesAgent:** 73                 | **Metrics:** 5/6, 7/7, 5/9, 3/4, 4/4, 4/4, 1/3, 4/4 |
+
 | :------: | :------: |
 | ![BugFind]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-bugfind-15-qwen3-6-35b-a3b-fp8.png) | ![DataExtract]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-dataextract-15-qwen3-6-35b-a3b-fp8.png) |
 | ![HermesAgent]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-hermesagent-20-qwen3-6-35b-a3b-fp8.png) | ![InstrucFollow]({{ site.url }}/assets/benchmarks/qwen-qwen3.6-35B-A3B-FP8/benchlocal-instructfollow-15-qwen3-6-35b-a3b-fp8.png) |
@@ -28,6 +38,7 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 ---
 
 ### 2. nvidia/Qwen3.6-35B-A3B-NVFP4
+
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--------------------- | :----------------------------- |
 | **Score:** 84.4        | **PP:** 1354 t/s               |
@@ -45,6 +56,7 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 ---
 
 ### 3. Qwen/Qwen3.6-27B-FP8
+
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--------------------- | :----------------------------- |
 | **Score:** 86.2        | **PP:** 3847 t/s               |
@@ -62,6 +74,7 @@ The tests were performed on an **NVIDIA RTX PRO 6000 Blackwell Max-Q** GPU. Belo
 ---
 
 ### 4. sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP
+
 | BenchLocal.app Results | Performance & Voicebot Metrics |
 | :--------------------- | :----------------------------- |
 | **Score:** 83.4        | **PP:** 5465 t/s               |
