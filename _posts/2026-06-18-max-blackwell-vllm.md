@@ -63,7 +63,7 @@ You can find the full configuration in my `docker-compose.yml` file:
       --port 8000
       --tensor-parallel-size 1
       --kv-cache-dtype fp8_e4m3
-      --gpu-memory-utilization 0.65
+      --gpu-memory-utilization 0.70
       --max-model-len 262144
       --max-num-seqs 16
       --max-num-batched-tokens 32768
