@@ -13,7 +13,7 @@ In the rapidly evolving landscape of Speech-to-Speech (S2S) models, the temptati
 While S2S offers a glimpse into the future of natural interaction, the Modular Pipeline provides the control, flexibility, and hardware-agnosticism required to build professional software.
 
 <div class="container">
-  <img src="/assets/pipeline/pipeline.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded" alt="Architecture diagram of a modular Voice AI pipeline" width="384" height="576" loading="lazy">
+  <img src="/assets/pipeline/pipeline.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded overflow: hidden; display: inline-block; vertical-align: middle;" alt="Architecture diagram of a modular Voice AI pipeline" width="384" height="576" loading="lazy">
 </div>
 
 <hr>
@@ -34,7 +34,7 @@ In a Pipeline, tasks are decoupled. The STT can run independently while the LLM 
 This surgical separation of concerns is what makes running a high-quality Voicebot on your own hardware—privately and locally—feasible. It allows for a level of optimization that monolithic models simply cannot match.
 
 <div class="container">
-  <img src="/assets/pipeline/resource-efficiency.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded" alt="Visualizing the hardware efficiency of decoupled tasks" width="350" height="250" loading="lazy">
+  <img src="/assets/pipeline/resource-efficiency.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded overflow: hidden; display: inline-block; vertical-align: middle;" alt="Visualizing the hardware efficiency of decoupled tasks" width="350" height="250" loading="lazy">
 </div>
 
 ## The "Intermediate Space": The Hidden Superpower
@@ -61,7 +61,7 @@ We use two clever tricks to create a sense of instantaneity:
 *   **Sentence Parsing:** We implement a parser that splits the LLM's text stream by punctuation (commas and periods). As soon as the parser detects a complete phrase, it fires the TTS engine. This allows the system to start speaking the first part of the answer while the LLM is still generating the remainder of the message.
 
 <div class="container">
-  <img src="/assets/pipeline/ai-agent.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded" alt="A conceptual visualization of an AI agent processing keywords to trigger specific tools" width="384" height="576" loading="lazy">
+  <img src="/assets/pipeline/ai-agent.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 img-rounded overflow: hidden; display: inline-block; vertical-align: middle;" alt="A conceptual visualization of an AI agent processing keywords to trigger specific tools" width="384" height="576" loading="lazy">
 </div>
 
 ## Handling the "Human" Side: Barge-in and Emotion
