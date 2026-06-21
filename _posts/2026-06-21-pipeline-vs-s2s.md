@@ -6,7 +6,7 @@ description: "Why the Modular Pipeline remains the king of production local Voic
 background: "https://blog.veladan.org/assets/pipeline/pipeline.jpg"
 ---
 
-# Why the Modular Pipeline is the Engine of Production Voice AI<
+# Why the Modular Pipeline is the Engine of Production Voice AI
 
 In the rapidly evolving landscape of Speech-to-Speech (S2S) models, the temptation to move toward "native" multimodal models is strong. However, for building robust, production-ready systems, the Modular Pipeline (STT -> LLM -> TTS) remains an engineering powerhouse.
 
