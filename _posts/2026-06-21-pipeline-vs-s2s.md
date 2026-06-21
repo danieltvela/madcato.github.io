@@ -1,13 +1,14 @@
 ---
-layout: page
-title: "Pipeline vs S2S: Architecting for Control in Voice AI"
+layout: post
+date: 2026-06-21
+title: "Pipeline vs S2S: Architecting for Control in Voice Local AI"
 description: "Why the Modular Pipeline remains the king of production Voicebots over native Speech-to-Speech."
 background: "https://blog.veladan.org/assets/pipeline/pipeline.jpg"
 ---
 
 <h1 class="display-4 fw-bold text-body-emphasis">Why the Modular Pipeline is the Engine of Production Voice AI</h1>
 <div>
-  <p class="lead mb-4">In the rapidly evolving landscape of Speech-to-Speech (S2S) models, the temptation to move toward "native" multimodal models is strong. However, for building robust, production-ready systems, the Modular Pipeline (STT $\rightarrow$ LLM $\rightarrow$ TTS) remains an engineering powerhouse.</p>
+  <p class="lead mb-4">In the rapidly evolving landscape of Speech-to-Speech (S2S) models, the temptation to move toward "native" multimodal models is strong. However, for building robust, production-ready systems, the Modular Pipeline (STT -> LLM -> TTS) remains an engineering powerhouse.</p>
   <p class="lead mb-4">While S2S offers a glimpse into the future of natural interaction, the Modular Pipeline provides the control, flexibility, and hardware-agnosticism required to build professional software.</p>
 </div>
 
