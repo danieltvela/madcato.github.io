@@ -29,7 +29,7 @@ The smaller model. Closer to what I already had.
 
 **Quality:** marginally lower than 35B on coding benchmarks. Not a dramatic difference, but measurable.
 
-**Speed:** roughly **one third** the throughput of the 35B. On agentic workflows where the model generates 1000+ token responses, this means waiting three times longer for each turn. In interactive coding, that adds up fast.
+**Speed:** roughly **one fifth** the throughput of the 35B. On agentic workflows where the model generates 1000+ token responses, this means waiting three times longer for each turn. In interactive coding, that adds up fast.
 
 **Verdict:** slower and not much different in quality. The 35B is worth the extra VRAM.
 
