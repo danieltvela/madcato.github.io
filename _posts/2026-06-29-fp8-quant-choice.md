@@ -6,7 +6,7 @@ date:       2026-06-29 08:00:00
 author:     "Daniel Vela"
 locale:     en
 lang-ref:   fp8-quant-choice
-background: "https://blog.veladan.org/benchmarks/qwen3.6/speed.png"
+background: "https://blog.veladan.org/assets/benchmarks/qwen3.6/speed.png"
 ---
 
 > I replaced my local model in OpenCode from Qwen3.6-27B to Qwen3.6-35B-A3B in FP8. Here is why, and why the other two options — the smaller 27B and the NVIDIA NVFP4 variant — lost.
