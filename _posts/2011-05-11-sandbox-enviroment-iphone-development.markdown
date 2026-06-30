@@ -3,7 +3,7 @@ layout:     post
 title:      "Sandbox environment for iPhone development"
 date:       2011-05-11 12:22:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   sandbox-enviroment-iphone-development
 ---

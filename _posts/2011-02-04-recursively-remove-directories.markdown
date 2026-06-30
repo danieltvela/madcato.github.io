@@ -3,7 +3,7 @@ layout:     post
 title:      "Recursively remove directories - UNIX"
 date:       2011-02-04 19:14:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   recursively-remove-directories
 ---

@@ -3,7 +3,7 @@ title: Maximizing the NVIDIA PRO 6000 Blackwell for Multi-Agent Workflows
 date: 2026-06-18
 categories: AI, Hardware
 tags: [LLM, vLLM, Multi-Agent, Hardware]
-background: "https://blog.veladan.org/assets/pro6000/rtx-pro-6000.jpeg"
+og_image: "https://blog.veladan.org/assets/pro6000/rtx-pro-6000.jpeg"
 layout: post
 ---
 

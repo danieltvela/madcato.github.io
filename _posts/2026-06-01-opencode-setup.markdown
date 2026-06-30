@@ -6,7 +6,7 @@ date:       2026-06-01 06:00:00
 author:     "Daniel Vela"
 locale:     en
 lang-ref:   opencode-setup
-background: https://blog.veladan.org/assets/opencode-tui-session.png
+og_image: https://blog.veladan.org/assets/opencode-tui-session.png
 ---
 
 > I replaced my AI coding workflow with OpenCode running a 10-agent orchestration system, backed by a mix of free-tier models and a local 27B model on my homelab workstation. Total monthly cost: cheap.

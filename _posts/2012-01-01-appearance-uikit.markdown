@@ -3,7 +3,7 @@ layout:     post
 title:      "Appearance of UIKit"
 date:       2012-01-01 11:09:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   appearance-uikit
 ---

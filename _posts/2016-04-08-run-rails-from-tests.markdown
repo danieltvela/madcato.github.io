@@ -3,7 +3,7 @@ layout:     post
 title:      "Launch a clean Rails server every time the Xcode unit test are launched"
 date:       2016-04-7 12:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   run-rails-from-tests
 ---

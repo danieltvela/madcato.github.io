@@ -3,7 +3,7 @@ layout:     post
 title:      "Multidevice programming"
 date:       2011-07-25 19:34:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   multidevice-programming
 ---

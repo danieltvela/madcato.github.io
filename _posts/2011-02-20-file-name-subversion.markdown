@@ -3,7 +3,7 @@ layout:     post
 title:      "@ in the name of a file - subversion"
 date:       2011-02-20 14:06:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   file-name-subversion
 ---

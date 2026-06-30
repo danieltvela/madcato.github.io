@@ -3,7 +3,7 @@ layout:     post
 title:      "How To upload a Rails app to Heroku"
 date:       2012-04-01 10:07:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   ios-dimensions-1
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Ignoring build directory for svn"
 date:       2011-03-02 23:52:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   ignoring-build-directory-svn
 ---

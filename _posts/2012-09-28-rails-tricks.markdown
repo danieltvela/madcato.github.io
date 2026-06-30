@@ -3,7 +3,7 @@ layout:     post
 title:      "Rails tricks"
 date:       2012-09-28 10:07:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   rails-tricks
 ---

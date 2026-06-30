@@ -3,7 +3,7 @@ layout:     post
 title:      "How to generate an static web from a Rails project"
 date:       2016-09-16 12:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   generate-static-web-from-rails
 ---

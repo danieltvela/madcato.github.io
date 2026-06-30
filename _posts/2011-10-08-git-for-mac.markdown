@@ -3,7 +3,7 @@ layout:     post
 title:      "Git for Mac"
 date:       2011-10-08 10:55:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   git-for-mac
 ---

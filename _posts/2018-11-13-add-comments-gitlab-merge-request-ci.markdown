@@ -3,7 +3,7 @@ layout:     post
 title:      "How to add comments to Gitlab 'Merge Request' from CI script"
 date:       2018-11-13 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-09.jpg"
+og_image: "/img/post-bg-09.jpg"
 locale:       en
 lang-ref:   add-comments-gitlab-merge-request-ci
 ---

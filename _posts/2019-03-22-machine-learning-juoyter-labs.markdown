@@ -3,7 +3,7 @@ layout:     post
 title:      "Machine Learning with Jupyter Labs"
 date:       2019-03-22 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-10.jpg"
+og_image: "/img/post-bg-10.jpg"
 locale:       en
 lang-ref:   machine-learning-juoyter-labs
 ---

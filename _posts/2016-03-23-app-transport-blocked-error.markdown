@@ -3,7 +3,7 @@ layout:     post
 title:      "App Transport Security has blocked a cleartext HTTP prevent http queries to success"
 date:       2016-03-23 10:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   app-transport-blocked-error
 ---

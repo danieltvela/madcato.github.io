@@ -3,7 +3,7 @@ layout:     post
 title:      "Cancel button in UIActionSheet fails when touching bottom half of its frame"
 date:       2011-02-03 18:07:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   cancel-UIActionSheet-frame
 ---

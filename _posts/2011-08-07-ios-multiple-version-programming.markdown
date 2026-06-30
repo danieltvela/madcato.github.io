@@ -3,7 +3,7 @@ layout:     post
 title:      "iOS Multiple Version Programming"
 date:       2011-08-07 10:55:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   ios-multiple-version-programming
 ---

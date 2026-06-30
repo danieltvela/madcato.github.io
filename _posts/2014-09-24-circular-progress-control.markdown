@@ -3,7 +3,7 @@ layout:     post
 title:      "Circular progress indicator control"
 date:       2014-09-24 15:41:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   circular-progress-control
 ---

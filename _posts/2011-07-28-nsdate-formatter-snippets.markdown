@@ -3,7 +3,7 @@ layout:     post
 title:      "NSDate formatter snippets"
 date:       2011-07-28 12:19:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   nsdate-formatter-snippets
 ---

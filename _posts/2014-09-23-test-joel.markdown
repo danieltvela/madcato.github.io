@@ -3,7 +3,7 @@ layout:     post
 title:      "The Joel Test For Programmers (The Simple Programmer Test)"
 date:       2014-09-23 15:41:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   test-joel
 ---

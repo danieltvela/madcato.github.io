@@ -3,7 +3,7 @@ layout: post
 date: 2026-06-21
 title: "Pipeline vs S2S: Architecting for Control in Voice Local AI"
 description: "Why the Modular Pipeline remains the king of production local Voicebots over native Speech-to-Speech."
-background: "https://blog.veladan.org/assets/pipeline/pipeline.jpg"
+og_image: "https://blog.veladan.org/assets/pipeline/pipeline.jpg"
 ---
 
 # Why the Modular Pipeline is the Engine of Production Voice AI

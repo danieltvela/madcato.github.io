@@ -4,7 +4,7 @@ title:      "My utilities"
 subtitle:   "Some command line utilities I developed"
 date:       2024-05-07 06:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:     en
 lang-ref:   my-utilities
 ---

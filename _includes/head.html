@@ -3,7 +3,7 @@
 
 {%- assign og_title = page.title | default: site.title -%}
 {%- assign og_description = page.subtitle | default: page.description | default: site.description -%}
-{%- assign og_image = page.background | default: "/assets/favicon/android-chrome-512x512.png" -%}
+{%- assign og_image = page.og_image | default: "/assets/favicon/android-chrome-512x512.png" -%}
 {%- if og_image contains 'http' -%}
   {%- assign image_url = og_image -%}
 {%- else -%}

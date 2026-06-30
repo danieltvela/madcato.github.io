@@ -3,7 +3,7 @@ layout:     post
 title:      "UITableView index"
 date:       2011-05-22 13:19:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   uitableview-index
 ---

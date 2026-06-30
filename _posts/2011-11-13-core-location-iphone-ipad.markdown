@@ -3,7 +3,7 @@ layout:     post
 title:      "Core Location iPhone / iPad"
 date:       2011-11-13 17:18:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   core-location-iphone-ipad
 ---

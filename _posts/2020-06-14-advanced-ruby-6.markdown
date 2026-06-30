@@ -3,7 +3,7 @@ layout:     post
 title:      "Advanced Ruby: dynamic typing"
 date:       2020-06-14 12:46:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   advanced-ruby-6
 ---

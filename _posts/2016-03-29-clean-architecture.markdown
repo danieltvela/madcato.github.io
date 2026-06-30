@@ -3,7 +3,7 @@ layout:     post
 title:      "La Arquitectura Limpia"
 date:       2016-03-29 12:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   clean-architecture
 ---

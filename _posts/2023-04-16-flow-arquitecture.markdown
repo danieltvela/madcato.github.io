@@ -4,7 +4,7 @@ title:      "Arquitecturas de flujo unidireccional para iOS"
 subtitle:   "Qué son las arquitecturas de flujo y ejemplos."
 date:       2023-04-21 06:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:     es
 lang-ref:   flow-arquitecture
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Long-Pomodoro Technique"
 date:       2015-05-23 17:28:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   long-pomodoro-technique
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Best WWDC videos"
 date:       2019-06-13 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-13.jpg"
+og_image: "/img/post-bg-13.jpg"
 locale:       en
 lang-ref:   best-wwdc-videos
 ---

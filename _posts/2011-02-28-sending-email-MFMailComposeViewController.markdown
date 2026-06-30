@@ -3,7 +3,7 @@ layout:     post
 title:      "Sending mail with MFMailComposeViewController"
 date:       2011-02-28 12:31:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   sending-email-MFMailComposeViewController
 ---

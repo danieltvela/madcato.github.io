@@ -3,7 +3,7 @@ layout:     post
 title:      "iPhone - Splash screen"
 date:       2011-02-09 16:03:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   splash-screen
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "RDoc Notation Reference"
 date:       2010-06-01 04:48:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   rdoc-notation
 ---

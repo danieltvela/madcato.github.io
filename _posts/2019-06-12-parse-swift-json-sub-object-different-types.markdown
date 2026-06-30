@@ -3,7 +3,7 @@ layout:     post
 title:      "How to decode/encode custom containers with different objects types in with Swift"
 date:       2019-06-17 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-14.jpg"
+og_image: "/img/post-bg-14.jpg"
 locale:       en
 lang-ref:   parse-swift-json-sub-object-different-types
 ---

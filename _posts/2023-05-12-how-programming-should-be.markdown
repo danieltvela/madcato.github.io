@@ -4,7 +4,7 @@ title:      "Cómo me gustaría que fuera la programación"
 subtitle:   "DSL descriptivos"
 date:       2023-05-08 06:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:     es
 lang-ref:   how-programming-should-be
 ---

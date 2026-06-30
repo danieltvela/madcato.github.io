@@ -3,7 +3,7 @@ layout:     post
 title:      "Walt Disney method to be creative"
 date:       2018-10-18 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-08.jpg"
+og_image: "/img/post-bg-08.jpg"
 locale:       en
 lang-ref:   walt-disney-creativity-method.
 ---

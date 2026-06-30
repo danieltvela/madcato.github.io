@@ -3,7 +3,7 @@ layout:     post
 title:      "Decorated git commits"
 date:       2013-07-09 20:27:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   commits-git-decorados
 ---

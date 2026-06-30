@@ -3,7 +3,7 @@ layout:     post
 title:      "Objective-C helpers"
 date:       2011-12-04 11:24:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   objectivec-helpers
 ---

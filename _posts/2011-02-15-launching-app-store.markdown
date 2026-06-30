@@ -3,7 +3,7 @@ layout:     post
 title:      "Launching the App Store from iPhone app"
 date:       2011-02-15 16:13:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   launching-app-store
 ---

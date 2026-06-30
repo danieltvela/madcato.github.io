@@ -3,7 +3,7 @@ layout:     post
 title:      "Background iOS location"
 date:       2011-11-19 18:10:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   background-ios-location
 ---

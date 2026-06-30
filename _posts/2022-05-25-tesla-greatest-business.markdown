@@ -4,7 +4,7 @@ title:      "Tesla will be the largest business in the world"
 subtitle:   "Tesla bot could be revolutionary"
 date:       2022-05-25 01:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-16.jpg"
+og_image: "/img/post-bg-16.jpg"
 locale:     en
 lang-ref:   tesla-greatest-business
 ---

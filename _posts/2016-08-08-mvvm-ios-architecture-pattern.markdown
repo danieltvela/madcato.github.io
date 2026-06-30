@@ -3,7 +3,7 @@ layout:     post
 title:      "MVVM architecture pattern in iOS (improved)"
 date:       2016-08-8 12:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   mvvm-ios-architecture-pattern
 ---

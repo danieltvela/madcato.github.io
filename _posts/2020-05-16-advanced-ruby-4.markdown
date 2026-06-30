@@ -3,7 +3,7 @@ layout:     post
 title:      "Advanced Ruby: class << self"
 date:       2020-05-16 15:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-18.jpg"
+og_image: "/img/post-bg-18.jpg"
 locale:       en
 lang-ref:   advanced-ruby-4
 ---

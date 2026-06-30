@@ -3,7 +3,7 @@ layout:     post
 title:      "Advanced Ruby: duck typing"
 date:       2020-06-17 04:50:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   advanced-ruby-7
 ---

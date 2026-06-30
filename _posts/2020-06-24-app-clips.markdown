@@ -3,7 +3,7 @@ layout:     post
 title:      "iOS 14: App Clips"
 date:       2020-06-24 06:54:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   app-clips
 ---

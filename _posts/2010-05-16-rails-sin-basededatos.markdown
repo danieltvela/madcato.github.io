@@ -3,7 +3,7 @@ layout:     post
 title:      "Usando Ruby on Rails sin base de datos"
 date:       2010-05-16 01:18:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   rails-sin-basededatos
 ---

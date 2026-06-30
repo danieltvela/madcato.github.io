@@ -3,7 +3,7 @@ layout:     post
 title:      "Great Developer Habits"
 date:       2020-06-23 16:08:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   good-programming-habits
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Data types"
 date:       2022-03-02 01:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-09.jpg"
+og_image: "/img/post-bg-09.jpg"
 locale:       en
 lang-ref:   data-types
 ---

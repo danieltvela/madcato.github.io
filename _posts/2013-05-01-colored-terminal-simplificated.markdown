@@ -3,7 +3,7 @@ layout:     post
 title:      "Colored terminal simplificated"
 date:       2013-05-01 13:55:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   colored-terminal-simplificated
 ---

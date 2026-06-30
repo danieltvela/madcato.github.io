@@ -3,7 +3,7 @@ layout:     post
 title:      "Resource file for data initialization"
 date:       2011-03-21 22:24:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   resource-file-data-initialization
 ---

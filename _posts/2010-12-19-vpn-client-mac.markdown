@@ -3,7 +3,7 @@ layout:     post
 title:      "VPN client - Mac OS X"
 date:       2010-12-19 23:02:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 locale:       en
 lang-ref:   vpn-client-mac
 ---

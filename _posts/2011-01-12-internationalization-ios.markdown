@@ -3,7 +3,7 @@ layout:     post
 title:      "Internationalization for iOS"
 date:       2011-01-12 10:11:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   internationalization-ios
 ---

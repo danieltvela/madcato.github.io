@@ -3,7 +3,7 @@ layout:     post
 title:      "To solve retain cycle leak using self inside blocks"
 date:       2015-07-06 01:50:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   solve-retain-cycle-leak-using-self-inside-blocks
 ---

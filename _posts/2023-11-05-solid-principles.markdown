@@ -4,7 +4,7 @@ title:      "Principios SOLID"
 subtitle:   "¿Qué son los principios solid?"
 date:       2023-11-05 06:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:     es
 lang-ref:   solid-principles
 ---

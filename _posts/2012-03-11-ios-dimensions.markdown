@@ -3,7 +3,7 @@ layout:     post
 title:      "iOS Dimensions"
 date:       2012-03-11 16:44:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   ios-dimensions
 ---

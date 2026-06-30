@@ -3,7 +3,7 @@ layout:     post
 title:      "To memorize"
 date:       2012-01-15 12:19:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   memorize
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Invoke code from the main queue"
 date:       2015-03-24 12:13:00
 author:     "Daniel Vela"
-background: "/img/post-bg-04.jpg"
+og_image: "/img/post-bg-04.jpg"
 locale:       en
 lang-ref:   invoke-code-from-main-queue
 ---

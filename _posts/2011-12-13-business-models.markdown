@@ -3,7 +3,7 @@ layout:     post
 title:      "Business Models"
 date:       2011-12-13 12:11:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   business-models
 ---

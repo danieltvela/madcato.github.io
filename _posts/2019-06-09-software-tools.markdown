@@ -3,7 +3,7 @@ layout:     post
 title:      "Software tools for business, freelances and startups"
 date:       2019-06-09 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-12.jpg"
+og_image: "/img/post-bg-12.jpg"
 locale:       en
 lang-ref:   2019-06-09-software-tools
 ---

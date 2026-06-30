@@ -3,7 +3,7 @@ layout:     post
 title:      "iOS4 Issue: NSURLConnection and NSOperation"
 date:       2010-12-19 23:06:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   ios-issue-connection-operations
 ---

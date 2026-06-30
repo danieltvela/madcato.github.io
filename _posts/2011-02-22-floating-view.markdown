@@ -3,7 +3,7 @@ layout:     post
 title:      "Floating UIPickerView like the Safari one"
 date:       2011-02-22 19:59:00
 author:     "Daniel Vela"
-background: "/img/post-bg-06.jpg"
+og_image: "/img/post-bg-06.jpg"
 locale:       en
 lang-ref:   floating-view
 ---

@@ -3,7 +3,7 @@ layout:     post
 title:      "Advanced Ruby: Object-Specific Classes"
 date:       2020-05-02 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-16.jpg"
+og_image: "/img/post-bg-16.jpg"
 locale:       en
 lang-ref:   advanced-ruby-2
 ---

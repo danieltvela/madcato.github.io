@@ -3,7 +3,7 @@ layout:     post
 title:      "Write in spanish with an american keyboard"
 date:       2013-02-13 13:09:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   escribir-espanol-con-teclado-americano
 ---

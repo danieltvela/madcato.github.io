@@ -3,7 +3,7 @@ layout:     post
 title:      "How to run Swift from Command Line"
 date:       2015-06-16 17:28:00
 author:     "Daniel Vela"
-background: "/img/post-bg-02.jpg"
+og_image: "/img/post-bg-02.jpg"
 locale:       en
 lang-ref:   run-swift-command-line
 ---

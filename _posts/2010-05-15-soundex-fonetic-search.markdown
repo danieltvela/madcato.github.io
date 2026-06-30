@@ -3,7 +3,7 @@ layout:     post
 title:      "Soundex: fonetic search"
 date:       2010-05-15 18:59:00
 author:     "Daniel Vela"
-background: "/img/post-bg-01.jpg"
+og_image: "/img/post-bg-01.jpg"
 ---
 
 [http://en.wikipedia.org/wiki/Soundex](http://en.wikipedia.org/wiki/Soundex)

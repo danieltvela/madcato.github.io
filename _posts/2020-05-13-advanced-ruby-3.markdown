@@ -3,7 +3,7 @@ layout:     post
 title:      "Advanced Ruby: module\_eval"
 date:       2020-05-13 14:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-17.jpg"
+og_image: "/img/post-bg-17.jpg"
 locale:       en
 lang-ref:   advanced-ruby-3
 ---

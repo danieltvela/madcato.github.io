@@ -3,7 +3,7 @@ layout:     post
 title:      "Learning how to learn"
 date:       2019-01-30 00:00:00
 author:     "Daniel Vela"
-background: "/img/post-bg-09.jpg"
+og_image: "/img/post-bg-09.jpg"
 locale:       en
 lang-ref:   learn-how-to-learn
 ---

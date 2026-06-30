@@ -3,7 +3,7 @@ layout:     post
 title:      "How to marshal a Ruby object"
 date:       2015-03-22 15:41:00
 author:     "Daniel Vela"
-background: "/img/post-bg-03.jpg"
+og_image: "/img/post-bg-03.jpg"
 locale:       en
 lang-ref:   marshal-ruby-object
 ---

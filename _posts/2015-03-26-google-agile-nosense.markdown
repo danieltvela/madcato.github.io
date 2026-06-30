@@ -3,7 +3,7 @@ layout:     post
 title:      "Why do some developers at strong companies like Google consider Agile development to be nonsense?"
 date:       2015-03-26 12:13:00
 author:     "Daniel Vela"
-background: "/img/post-bg-05.jpg"
+og_image: "/img/post-bg-05.jpg"
 locale:       en
 lang-ref:   google-agile-nosense
 ---

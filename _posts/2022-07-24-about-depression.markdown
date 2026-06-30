@@ -4,7 +4,7 @@ title: "About Depression"
 subtitle: "How we climb out of the hole"  
 date: 2022-07-24 01:00:00  
 author: "Daniel Vela"  
-background: "/img/post-bg-19.jpg"  
+og_image: "/img/post-bg-19.jpg"  
 locale: en  
 lang-ref: about-depression  
 ---
