@@ -17,14 +17,14 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:title" content="{{ og_title }}">
 <meta property="og:description" content="{{ og_description }}">
-<meta property="og:image" content="{{ image_url }}">
+<meta property="og:image" content="{{ image_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:title" content="{{ og_title }}">
 <meta name="twitter:description" content="{{ og_description }}">
-<meta name="twitter:image" content="{{ image_url }}">
+<meta name="twitter:image" content="{{ image_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
 <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
