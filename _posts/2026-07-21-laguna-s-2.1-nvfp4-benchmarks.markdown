@@ -1,0 +1,194 @@
+---
+layout:     post
+title: Benchmarking poolside/Laguna-S-2.1-NVFP4 on RTX PRO 6000 Blackwell
+subtitle: local test made with BencLocal.app
+date:       2026-07-21 08:00:00
+author:     "Daniel Vela"
+locale:     en
+lang-ref:   inverted-cost-model-opencode
+---
+
+Today I ran a series of local benchmarks comparing **poolside/Laguna-S-2.1-NVFP4** against **Qwen3.6-27B-FP8** on my RTX PRO 6000 Blackwell. At first glance, Laguna underperforms — but the HuggingFace model card claims better numbers than Qwen3.6 on SWE-bench and Terminal-Bench. So either my setup is suboptimal, or there's a gap between the official benchmarks and real-world usage. Here are the raw results.
+
+## The Model
+
+Laguna S 2.1-NVFP4 is a 117.6B total parameter Mixture-of-Experts model with 8.5B activated parameters per token. It uses Sliding Window Attention with per-head gating in 36 out of 48 layers, NVFP4 quantization, and a 262K context window. At ~71 GB, it fits on the RTX PRO 6000 (96 GB) with room for KV cache.
+
+The model card claims these benchmark results:
+
+| Model | Terminal-Bench 2.1 | SWE-bench Multilingual | SWE-Bench Pro | DeepSWE | SWE Atlas | Toolathlon |
+|---|---|---|---|---|---|---|
+| **Laguna S 2.1** | **70.2%** | **78.5%** | 59.4% | 40.4% | 46.2% | 49.7% |
+| Qwen 3.7 Max | 88.3% | — | — | 69% | — | — |
+| Kimi K3 | 88.3% | — | — | — | — | — |
+
+These are official numbers from the model card. My local BenchLocal results tell a different story.
+
+## BenchLocal Results: Laguna S 2.1-NVFP4
+
+### BugFind-15
+
+| BenchLocal | |
+|---|---|
+| **Score:** 88.8 | **A:** 67 |
+| **Pass:** 5 | **B:** 100 |
+| **Partial:** 8 | **C:** 100 |
+| **Fail:** 7 | **D:** 67 |
+| | **E:** 90 |
+
+![BugFind]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-bugfind-15-poolside-laguna-s-2-1-nvfp4.png)
+
+### InstrucFollow-15
+
+| BenchLocal | |
+|---|---|
+| **Score:** 84.0 | **A:** 93 |
+| **Pass:** 9 | **B:** 80 |
+| **Partial:** 4 | **C:** 93 |
+| **Fail:** 2 | **D:** 87 |
+| | **E:** 67 |
+
+![InstrucFollow]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-instructfollow-15-poolside-laguna-s-2-1-nvfp4.png)
+
+### DataExtract-15
+
+| BenchLocal | |
+|---|---|
+| **Score:** 86.8 | **A:** 97 |
+| **Pass:** 5 | **B:** 84 |
+| **Partial:** 8 | **C:** 87 |
+| **Fail:** 7 | **D:** 88 |
+| | **E:** 78 |
+
+![DataExtract]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-dataextract-15-poolside-laguna-s-2-1-nvfp4.png)
+
+### HermesAgent-20
+
+| BenchLocal | |
+|---|---|
+| **Score:** ~70* | **Pass:** 13 |
+| **Partial:** 2 | |
+| **Fail:** 5 | |
+
+*Score estimated from pass/partial/fail counts. Sub-scores A-E were truncated in the OCR output.
+
+![HermesAgent]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-hermesagent-20-poolside-laguna-s-2-1-nvfp4.png)
+
+### ToolCall-15
+
+| BenchLocal | |
+|---|---|
+| **Score:** 100 | **A:** 100 |
+| **Pass:** 15 | **B:** 100 |
+| **Partial:** 0 | **C:** 100 |
+| **Fail:** 0 | **D:** 100 |
+| | **E:** 100 |
+
+![ToolCall]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-toolcall-15-poolside-laguna-s-2-1-nvfp4.png)
+
+### CLI-40
+
+| BenchLocal | |
+|---|---|
+| **Score:** 67.1 | **A:** 95 |
+| **Pass:** 23 | **B:** 43 |
+| **Partial:** 3 | **C:** 50 |
+| **Fail:** 14 | **D:** 55 |
+| | **E:** 93 |
+| | **F:** 98 |
+| | **G:** 18 |
+| | **H:** 85 |
+
+![CLI-40]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-cli-40-poolside-laguna-s-2-1-nvfp4.png)
+
+## Comparison with Qwen3.6-27B-FP8
+
+For reference, here are the Qwen3.6-27B-FP8 results from my previous benchmark run. See the full [Qwen3.6 benchmarks post](/2026/06/12/qwen3-6-benchmarks-vllm-recipe) for details.
+
+| Benchmark | Laguna S 2.1 | Qwen3.6-27B-FP8 | Winner |
+|---|---|---|---|
+| **BugFind** | 88.8 | 90 | Qwen3.6 |
+| **InstrucFollow** | 84.0 | 97 | Qwen3.6 |
+| **DataExtract** | 86.8 | 85 | Laguna |
+| **HermesAgent** | ~70 | 62 | Laguna |
+| **ToolCall** | 100 | 97 | Laguna |
+| **CLI-40** | 67.1 | N/A | — |
+
+## Where the gap might come from
+
+A few things could explain why Laguna underperforms locally despite better official benchmarks:
+
+1. **Prompt template mismatch.** Laguna uses a different chat template than Qwen3.6. The default vLLM template may not be optimal for this model. The model card recommends `temperature 0.7, top_p 0.95` — I used the Qwen3.6 defaults (`temperature 0.6, top_p 0.95`).
+
+2. **No speculative decoding.** Qwen3.6 was running with MTP speculative decoding (2 tokens). Laguna was not configured with a draft model. The model card mentions an optional `poolside/Laguna-S-2.1-DFlash-NVFP4` draft model.
+
+3. **Different benchmark scope.** The official benchmarks (Terminal-Bench, SWE-bench) test coding agent workflows with specific tool environments. BenchLocal tests general instruction following, data extraction, and agent orchestration — a different distribution.
+
+4. **Model size vs. activated parameters.** Laguna is 117.6B total but only 8.5B activated per token. Qwen3.6-27B is dense. For tasks that don't benefit from the MoE routing, the smaller dense model can be more efficient.
+
+## The official numbers vs. local results
+
+The HuggingFace model card shows Laguna S 2.1 scoring 70.2% on Terminal-Bench 2.1 — ahead of DeepSeek-V4-Pro Max and comparable to Qwen 3.7 Max. But my BenchLocal CLI-40 score is 67.1, which is the weakest benchmark. This suggests the model is optimized for specific agentic coding workflows (Terminal-Bench, SWE-bench) rather than general-purpose tasks.
+
+## vLLM Deployment Recipe
+
+```yaml
+  vllm-laguna:
+    image: vllm/vllm-openai:latest
+    runtime: nvidia
+    restart: unless-stopped
+    shm_size: "16g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    environment:
+      - VLLM_HOST_IP=0.0.0.0
+      - HF_HOME=/root/.cache/huggingface
+      - HF_TOKEN=${HF_TOKEN}
+      - CUTE_DSL_ARCH=sm_120
+      # - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    volumes:
+      - ./huggingface:/root/.cache/huggingface
+      - ./vllm_cache:/root/.cache/vllm
+    ports:
+      - "8005:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command:
+      poolside/Laguna-S-2.1-NVFP4
+      --served-model-name Laguna-S-2.1-NVFP4
+      --host 0.0.0.0
+      --port 8000
+      --trust-remote-code
+      --tensor-parallel-size 1
+      --max-model-len 262144
+      --gpu-memory-utilization 0.95
+      --max-num-seqs 16
+      --max-num-batched-tokens 8192
+      --enable-auto-tool-choice
+      --enable-chunked-prefill
+      --enable-prefix-caching
+      --async-scheduling
+      --tool-call-parser poolside_v1
+      --reasoning-parser poolside_v1
+      --default-chat-template-kwargs '{"enable_thinking":true, "preserve_thinking":true, "max_tool_response_chars":32768}'
+      --override-generation-config '{"temperature":0.7,"top_p":0.95}'
+      --speculative-config '{"model":"poolside/Laguna-S-2.1-DFlash-NVFP4","num_speculative_tokens":15,"method":"dflash"}'
+      --kv-transfer-config '{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{"cpu_bytes_to_use_per_rank":42949672960,"lazy_offload":"false"}}'
+```
+
+## Links
+
+- [Qwen3.6 benchmarks and vLLM recipe](/2026/06/12/qwen3-6-benchmarks-vllm-recipe) — the full Qwen3.6 benchmark results
+- [Maximizing the RTX PRO 6000 for multi-agent workflows](/2026/06/18/max-blackwell-vllm) — my Blackwell vLLM setup
+- [The inverted cost model](/2026/07/09/inverted-cost-model-opencode) — running a local 27B as orchestrator
+- [My OpenCode setup](/2026/06/01/opencode-setup) — multi-agent coding with local models
+- [The 6 phases of programmer adaptation to AI](/2026/06/07/the-6-phases-of-programmers-adaptation-to-ai) — how developers evolve with AI agents
+- [poolside/Laguna-S-2.1-NVFP4 on HuggingFace](https://huggingface.co/poolside/Laguna-S-2.1-NVFP4) — model card and official benchmarks
+- [BenchLocal.app](https://benchlocal.com) — the benchmark suite used
