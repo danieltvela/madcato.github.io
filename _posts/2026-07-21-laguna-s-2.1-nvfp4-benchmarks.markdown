@@ -30,7 +30,7 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** 88.8 | **A:** 67 |
+| **Score:** 92 | **A:** 67 |
 | **Pass:** 5 | **B:** 100 |
 | **Partial:** 8 | **C:** 100 |
 | **Fail:** 7 | **D:** 67 |
@@ -54,7 +54,7 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** 86.8 | **A:** 97 |
+| **Score:** 89 | **A:** 97 |
 | **Pass:** 5 | **B:** 84 |
 | **Partial:** 8 | **C:** 87 |
 | **Fail:** 7 | **D:** 88 |
@@ -66,11 +66,9 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** ~70* | **Pass:** 13 |
+| **Score:** 86 | **Pass:** 13 |
 | **Partial:** 2 | |
 | **Fail:** 5 | |
-
-*Score estimated from pass/partial/fail counts. Sub-scores A-E were truncated in the OCR output.
 
 ![HermesAgent]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-hermesagent-20-poolside-laguna-s-2-1-nvfp4.png)
 
@@ -107,10 +105,10 @@ For reference, here are the Qwen3.6-27B-FP8 results from my previous benchmark r
 
 | Benchmark | Laguna S 2.1 | Qwen3.6-27B-FP8 | Winner |
 |---|---|---|---|
-| **BugFind** | 88.8 | 90 | Qwen3.6 |
+| **BugFind** | 92 | 90 | Laguna |
 | **InstrucFollow** | 84.0 | 97 | Qwen3.6 |
-| **DataExtract** | 86.8 | 85 | Laguna |
-| **HermesAgent** | ~70 | 62 | Laguna |
+| **DataExtract** | 89 | 85 | Laguna |
+| **HermesAgent** | 86 | 62 | Laguna |
 | **ToolCall** | 100 | 97 | Laguna |
 | **CLI-40** | 67.1 | N/A | — |
 
