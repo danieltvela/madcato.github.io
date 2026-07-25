@@ -128,6 +128,25 @@ A few things could explain why Laguna underperforms locally despite better offic
 
 The HuggingFace model card shows Laguna S 2.1 scoring 70.2% on Terminal-Bench 2.1 — ahead of DeepSeek-V4-Pro Max and comparable to Qwen 3.7 Max. But my BenchLocal CLI-40 score is 67.1, which is the weakest benchmark. This suggests the model is optimized for specific agentic coding workflows (Terminal-Bench, SWE-bench) rather than general-purpose tasks.
 
+## Quickfix for version vLLM 0.25.1
+
+There is a bug in the reasoning parser that provokes an infinite loop. To solve it, apply the following patch:
+
+```bash
+docker compose exec -it vllm-laguna bash -c \
+  "python -c 'import vllm.reasoning.poolside_v1_reasoning_parser as m; print(m.__file__)'"
+```
+With this path, replace the file with the fixed version of the fork:
+
+```bash
+docker compose exec -it vllm-laguna bash -c \
+  "curl -sL -o /tmp/patched.py https://raw.githubusercontent.com/nothiny/vllm/213c6e638852d6dbc0152a80dd5e9064e07a4bac/vllm/reasoning/poolside_v1_reasoning_parser.py"
+
+docker compose cp vllm-laguna:/tmp/patched.py ./patched.py
+docker compose cp ./patched.py vllm-laguna:<PREVIOUSELY_EXTRACTED_PATH>
+docker compose restart vllm-laguna
+```
+
 ## vLLM Deployment Recipe
 
 ```yaml
@@ -174,7 +193,7 @@ The HuggingFace model card shows Laguna S 2.1 scoring 70.2% on Terminal-Bench 2.
       --enable-prefix-caching
       --async-scheduling
       --tool-call-parser poolside_v1
-      --reasoning-parser poolside_v1
+      --reasoning-parser deepseek_r1
       --default-chat-template-kwargs '{"enable_thinking":true, "preserve_thinking":true, "max_tool_response_chars":32768}'
       --override-generation-config '{"temperature":0.7,"top_p":0.95}'
       --speculative-config '{"model":"poolside/Laguna-S-2.1-DFlash-NVFP4","num_speculative_tokens":15,"method":"dflash"}'
