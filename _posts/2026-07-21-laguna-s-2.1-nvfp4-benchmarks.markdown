@@ -30,11 +30,11 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** 92 | **A:** 67 |
-| **Pass:** 5 | **B:** 100 |
-| **Partial:** 8 | **C:** 100 |
-| **Fail:** 7 | **D:** 67 |
-| | **E:** 90 |
+| **Score:** 100 | **A:** 100 |
+| **Pass:** 15 | **B:** 100 |
+| **Partial:** 0 | **C:** 100 |
+| **Fail:** 0 | **D:** 100 |
+| | **E:** 100 |
 
 ![BugFind]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-bugfind-15-poolside-laguna-s-2-1-nvfp4.png)
 
@@ -42,7 +42,7 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** 84.0 | **A:** 93 |
+| **Score:** 84.0 | **A:** 92 |
 | **Pass:** 9 | **B:** 80 |
 | **Partial:** 4 | **C:** 93 |
 | **Fail:** 2 | **D:** 87 |
@@ -55,10 +55,10 @@ These are official numbers from the model card. My local BenchLocal results tell
 | BenchLocal | |
 |---|---|
 | **Score:** 89 | **A:** 97 |
-| **Pass:** 5 | **B:** 84 |
-| **Partial:** 8 | **C:** 87 |
-| **Fail:** 7 | **D:** 88 |
-| | **E:** 78 |
+| **Pass:** 11 | **B:** 84 |
+| **Partial:** 3 | **C:** 87 |
+| **Fail:** 1 | **D:** 88 |
+| | **E:** 82 |
 
 ![DataExtract]({{ site.url }}/assets/benchmarks/Laguna-S-2.1-NVFP4/benchlocal-dataextract-15-poolside-laguna-s-2-1-nvfp4.png)
 
@@ -88,7 +88,7 @@ These are official numbers from the model card. My local BenchLocal results tell
 
 | BenchLocal | |
 |---|---|
-| **Score:** 67.1 | **A:** 95 |
+| **Score:** 70 | **A:** 95 |
 | **Pass:** 23 | **B:** 43 |
 | **Partial:** 3 | **C:** 50 |
 | **Fail:** 14 | **D:** 55 |
@@ -123,6 +123,8 @@ A few things could explain why Laguna underperforms locally despite better offic
 3. **Different benchmark scope.** The official benchmarks (Terminal-Bench, SWE-bench) test coding agent workflows with specific tool environments. BenchLocal tests general instruction following, data extraction, and agent orchestration — a different distribution.
 
 4. **Model size vs. activated parameters.** Laguna is 117.6B total but only 8.5B activated per token. Qwen3.6-27B is dense. For tasks that don't benefit from the MoE routing, the smaller dense model can be more efficient.
+
+5. **Model requires fixes** Laguna S 2.1 is a new model with less than a week from publication. Probably poolsideai will continue improving the different quants the have published.
 
 ## The official numbers vs. local results
 
