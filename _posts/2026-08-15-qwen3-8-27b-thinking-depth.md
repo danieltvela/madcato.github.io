@@ -75,48 +75,48 @@ A voice agent's TTFT is dominated by reasoning tokens: the classifier routes a t
 <details>
 <summary>off</summary>
 
-![BugFind]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png)
-![CLI-40]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png)
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png" alt="BugFind" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png" alt="InstrucFollow" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png" alt="DataExtract" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png" alt="HermesAgent" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png" alt="ToolCall" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/off/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png" alt="CLI-40" loading="lazy" />
 
 </details>
 
 <details>
 <summary>low</summary>
 
-![BugFind]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png)
-![CLI-40]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png)
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png" alt="BugFind" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png" alt="InstrucFollow" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png" alt="DataExtract" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png" alt="HermesAgent" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png" alt="ToolCall" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/low/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png" alt="CLI-40" loading="lazy" />
 
 </details>
 
 <details>
 <summary>medium</summary>
 
-![BugFind]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png)
-![CLI-40]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png)
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png" alt="BugFind" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png" alt="InstrucFollow" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png" alt="DataExtract" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png" alt="HermesAgent" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png" alt="ToolCall" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/medium/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png" alt="CLI-40" loading="lazy" />
 
 </details>
 
 <details>
 <summary>xhigh</summary>
 
-![BugFind]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png)
-![InstrucFollow]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png)
-![DataExtract]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png)
-![HermesAgent]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png)
-![ToolCall]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png)
-![CLI-40]({{ site.url }}/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png)
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-bugfind-15-unsloth-qwen3-8-27b-nvfp4.png" alt="BugFind" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-instructfollow-15-unsloth-qwen3-8-27b-nvfp4.png" alt="InstrucFollow" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-dataextract-15-unsloth-qwen3-8-27b-nvfp4.png" alt="DataExtract" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-hermesagent-20-unsloth-qwen3-8-27b-nvfp4.png" alt="HermesAgent" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-toolcall-15-unsloth-qwen3-8-27b-nvfp4.png" alt="ToolCall" loading="lazy" />
+  <img src="/assets/benchmarks/unsloth-qwen3.8-27b-nvfp4-think/xhigh/benchlocal-cli-40-unsloth-qwen3-8-27b-nvfp4.png" alt="CLI-40" loading="lazy" />
 
 </details>
 
