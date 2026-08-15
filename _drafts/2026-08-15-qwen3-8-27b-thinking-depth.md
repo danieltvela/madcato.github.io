@@ -2,7 +2,7 @@
 layout:     post
 title:      "Qwen3.8-27B: The Thinking Dial, Measured"
 subtitle:   "Series 2/4 — off, xhigh, medium, low: what each level costs in quality and wall-clock"
-date:       2026-08-15 20:00:00
+date:       2026-08-15 00:00:00
 author:     "Daniel Vela"
 locale:     en
 lang-ref:   qwen3-8-27b-thinking-depth
