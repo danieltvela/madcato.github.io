@@ -2,7 +2,7 @@
 layout:     post
 title:      "The axis isn't scripting vs compiled: it's the cost of verification"
 subtitle:   "Languages for AI agents: what the August 2026 debate actually settled"
-date:       2026-09-17 22:20:00
+date:       2026-09-17 22:15:00 +0200
 author:     "Daniel Vela"
 og_image:   "/img/post-bg-01.jpg"
 locale:     en
