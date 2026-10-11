@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="430" viewBox="0 0 780 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="780" height="430" fill="#ffffff"/>
+<text x="74" y="30" font-size="17" font-weight="bold" fill="#111">Tasks by share of target tests passed — GLM-5.3-Flash</text>
+<line x1="74" y1="334.0" x2="756" y2="334.0" stroke="#e8e8e8"/>
+<text x="66" y="338.0" font-size="11" fill="#666" text-anchor="end">0</text>
+<line x1="74" y1="278.8" x2="756" y2="278.8" stroke="#e8e8e8"/>
+<text x="66" y="282.8" font-size="11" fill="#666" text-anchor="end">19</text>
+<line x1="74" y1="223.6" x2="756" y2="223.6" stroke="#e8e8e8"/>
+<text x="66" y="227.6" font-size="11" fill="#666" text-anchor="end">37</text>
+<line x1="74" y1="168.4" x2="756" y2="168.4" stroke="#e8e8e8"/>
+<text x="66" y="172.4" font-size="11" fill="#666" text-anchor="end">56</text>
+<line x1="74" y1="113.2" x2="756" y2="113.2" stroke="#e8e8e8"/>
+<text x="66" y="117.2" font-size="11" fill="#666" text-anchor="end">75</text>
+<line x1="74" y1="58.0" x2="756" y2="58.0" stroke="#e8e8e8"/>
+<text x="66" y="62.0" font-size="11" fill="#666" text-anchor="end">93</text>
+<rect x="92.8" y="100.1" width="119.7" height="233.9" fill="#3b6fb6"/>
+<text x="152.6" y="95.1" font-size="11" fill="#333" text-anchor="middle">79</text>
+<text x="159.2" y="353.0" font-size="12" fill="#333" text-anchor="middle">all passed</text>
+<rect x="263.3" y="260.0" width="119.7" height="74.0" fill="#3b6fb6"/>
+<text x="323.1" y="255.0" font-size="11" fill="#333" text-anchor="middle">25</text>
+<text x="329.8" y="353.0" font-size="12" fill="#333" text-anchor="middle">90-99%</text>
+<rect x="433.8" y="319.2" width="119.7" height="14.8" fill="#3b6fb6"/>
+<text x="493.6" y="314.2" font-size="11" fill="#333" text-anchor="middle">5</text>
+<text x="500.2" y="353.0" font-size="12" fill="#333" text-anchor="middle">50-89%</text>
+<rect x="604.3" y="322.2" width="119.7" height="11.8" fill="#3b6fb6"/>
+<text x="664.1" y="317.2" font-size="11" fill="#333" text-anchor="middle">4</text>
+<text x="670.8" y="353.0" font-size="12" fill="#333" text-anchor="middle">under 50%</text>
+<line x1="74" y1="334" x2="756" y2="334" stroke="#999"/>
+<text x="20" y="196.0" font-size="11" fill="#666" transform="rotate(-90 20 196.0)" text-anchor="middle">tasks</text>
+<rect x="74" y="384" width="12" height="12" fill="#3b6fb6"/>
+<text x="92" y="394" font-size="12" fill="#333">tasks</text>
+</svg>

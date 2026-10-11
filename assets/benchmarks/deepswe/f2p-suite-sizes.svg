@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="430" viewBox="0 0 780 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="780" height="430" fill="#ffffff"/>
+<text x="74" y="30" font-size="17" font-weight="bold" fill="#111">Target (f2p) tests per task across the 113 DeepSWE tasks</text>
+<line x1="74" y1="334.0" x2="756" y2="334.0" stroke="#e8e8e8"/>
+<text x="66" y="338.0" font-size="11" fill="#666" text-anchor="end">0</text>
+<line x1="74" y1="278.8" x2="756" y2="278.8" stroke="#e8e8e8"/>
+<text x="66" y="282.8" font-size="11" fill="#666" text-anchor="end">9</text>
+<line x1="74" y1="223.6" x2="756" y2="223.6" stroke="#e8e8e8"/>
+<text x="66" y="227.6" font-size="11" fill="#666" text-anchor="end">17</text>
+<line x1="74" y1="168.4" x2="756" y2="168.4" stroke="#e8e8e8"/>
+<text x="66" y="172.4" font-size="11" fill="#666" text-anchor="end">26</text>
+<line x1="74" y1="113.2" x2="756" y2="113.2" stroke="#e8e8e8"/>
+<text x="66" y="117.2" font-size="11" fill="#666" text-anchor="end">35</text>
+<line x1="74" y1="58.0" x2="756" y2="58.0" stroke="#e8e8e8"/>
+<text x="66" y="62.0" font-size="11" fill="#666" text-anchor="end">44</text>
+<rect x="89.0" y="251.8" width="95.8" height="82.2" fill="#3b6fb6"/>
+<text x="136.9" y="246.8" font-size="11" fill="#333" text-anchor="middle">13</text>
+<text x="142.2" y="353.0" font-size="12" fill="#333" text-anchor="middle">2-10</text>
+<rect x="225.4" y="176.0" width="95.8" height="158.0" fill="#3b6fb6"/>
+<text x="273.3" y="171.0" font-size="11" fill="#333" text-anchor="middle">25</text>
+<text x="278.6" y="353.0" font-size="12" fill="#333" text-anchor="middle">11-25</text>
+<rect x="361.8" y="169.6" width="95.8" height="164.4" fill="#3b6fb6"/>
+<text x="409.7" y="164.6" font-size="11" fill="#333" text-anchor="middle">26</text>
+<text x="415.0" y="353.0" font-size="12" fill="#333" text-anchor="middle">26-50</text>
+<rect x="498.2" y="100.1" width="95.8" height="233.9" fill="#3b6fb6"/>
+<text x="546.1" y="95.1" font-size="11" fill="#333" text-anchor="middle">37</text>
+<text x="551.4" y="353.0" font-size="12" fill="#333" text-anchor="middle">51-100</text>
+<rect x="634.6" y="258.1" width="95.8" height="75.9" fill="#3b6fb6"/>
+<text x="682.5" y="253.1" font-size="11" fill="#333" text-anchor="middle">12</text>
+<text x="687.8" y="353.0" font-size="12" fill="#333" text-anchor="middle">101-254</text>
+<line x1="74" y1="334" x2="756" y2="334" stroke="#999"/>
+<text x="20" y="196.0" font-size="11" fill="#666" transform="rotate(-90 20 196.0)" text-anchor="middle">tasks</text>
+<rect x="74" y="384" width="12" height="12" fill="#3b6fb6"/>
+<text x="92" y="394" font-size="12" fill="#333">tasks</text>
+</svg>
